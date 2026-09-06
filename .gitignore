@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# parquets
+*.parquet
+*.parquet.zip
+
+# Mac
+.DS_Store
+
+# Node
+node_modules/
+
+# Sentio
+sentio/

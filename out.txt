@@ -1,0 +1,24 @@
+12:03:11.594 | INFO     |9 - Starting...
+12:03:11.594 | INFO     |19 - Reading morpho_positions.parquet...
+12:03:11.594 | INFO     |20 - Description: Contains the latest positions of the Whitelisted Vaults
+12:03:11.606 | INFO     |46 - Size: (69, 8)
+12:03:11.606 | WARNING  |61 - No timestamp column
+12:03:11.607 | INFO     |63 - Done.
+12:03:11.607 | INFO     |19 - Reading morpho_Vaults.parquet...
+12:03:11.607 | INFO     |20 - Description: Historical positions of the Whitelisted Vaults
+12:03:11.734 | INFO     |46 - Size: (403127, 15)
+12:03:11.735 | INFO     |54 - Min timestamp: 2025-04-25 20:00:00+00:00 (block: 2976098)
+12:03:11.735 | INFO     |57 - Max timestamp: 2026-02-12 07:21:00+00:00 (block: 27070518)
+12:03:11.735 | INFO     |63 - Done.
+12:03:11.735 | INFO     |19 - Reading morpho_yieldAPR.parquet...
+12:03:11.735 | INFO     |20 - Description:
+12:03:12.184 | INFO     |46 - Size: (1584238, 33)
+12:03:12.186 | INFO     |54 - Min timestamp: 2025-04-25 16:03:52+00:00 (block: 2968778)
+12:03:12.186 | INFO     |57 - Max timestamp: 2026-02-12 07:18:00+00:00 (block: 27070335)
+12:03:12.186 | INFO     |63 - Done.
+12:03:12.186 | INFO     |19 - Reading morpho_yieldBalance.parquet...
+12:03:12.186 | INFO     |20 - Description:
+12:03:12.656 | INFO     |46 - Size: (2561557, 26)
+12:03:12.658 | INFO     |54 - Min timestamp: 2025-04-25 20:00:00+00:00 (block: 2976098)
+12:03:12.658 | INFO     |57 - Max timestamp: 2026-02-12 07:19:00+00:00 (block: 27070396)
+12:03:12.658 | INFO     |63 - Done.
