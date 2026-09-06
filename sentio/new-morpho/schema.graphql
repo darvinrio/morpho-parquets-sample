@@ -1,0 +1,31 @@
+type MorphoState @entity {
+  id: ID!
+  updatedAt: BigInt!
+  vaultName: String!
+  protocolId: String!
+  collateralAsset: String!
+  collateralDecimals: BigInt!
+  collateralSymbol: String!
+  collateralOracle: String!
+  loanAsset: String!
+  loanDecimals: BigInt!
+  loanSymbol: String!
+  collateralUsdPrice: BigDecimal!
+  loanUsdPrice: BigDecimal!
+  collateralUnderlyingApr: BigDecimal!
+  loanUnderlyingApr: BigDecimal!
+  borrowApy: BigDecimal!
+  supplyApy: BigDecimal!
+  loanToSharesRatio: BigDecimal!
+  supplyToSharesRatio: BigDecimal!
+  borrowRate: BigInt!
+}
+
+type MetaVault @entity {
+  id: ID!
+  vault: String!
+  vaultDecimals: BigInt!
+  underlyingDecimals: BigInt!
+  underlying: String!
+  vaultName: String!
+}

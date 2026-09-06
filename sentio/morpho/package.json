@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "morpho",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "sentio build",
+    "gen": "sentio gen",
+    "test": "sentio test",
+    "upload": "sentio upload",
+    "postinstall": "sentio gen"
+  },
+  "dependencies": {
+    "@swell-network/swentio-utils": "^1.0.0"
+  }
+}

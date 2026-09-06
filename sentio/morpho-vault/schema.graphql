@@ -1,0 +1,12 @@
+type Account @entity {
+  id: ID!
+  address: String!
+  type: PositionType!
+  updatedAt: BigInt!
+  balance: BigInt!
+}
+
+enum PositionType {
+  LP
+  GAUGE
+}
